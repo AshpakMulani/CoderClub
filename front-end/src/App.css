@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.app_margin{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body{
+  background-color: var(--color-bg);
+
+}
+
+.section_padding {
+  padding: 4rem 6rem;
+}
+
+.section_margin {
+  margin: 4rem 6rem;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+
+
+.gradient_bg{
+   /* ff 3.6+ */
+   background:-moz-linear-gradient(90deg, #161717 1%, #08090C 100%); 
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-linear-gradient(90deg, #161717 1%, #08090C 100%);
+
+   /* opera 11.10+ */
+   background:-o-linear-gradient(90deg, #161717 1%, #08090C 100%);
+
+   /* ie 6-9 */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08090C', endColorstr='#161717', GradientType=0 );
+
+   /* ie 10+ */
+   background:-ms-linear-gradient(90deg, #161717 1%, #08090C 100%);
+
+   /* global 94%+ browsers support */
+   background:linear-gradient(90deg, #161717 1%, #08090C 100%)
+}
+
+
+
+@media screen and ( max-width:700px ){
+  .section_padding{
+    padding: 4rem;
+  }
+  .section_margin{
+    margin: 4rem;
+  }   
+}
+@media screen and ( max-width:550px ){
+  .section_padding{
+    padding: 4rem 2rem;
+  }
+  .section_margin{
+    margin: 4rem 2rem;
+  }   
+}
+

@@ -1,0 +1,10 @@
+.coderclub_navbar_container{
+    
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    align-items: center;
+    padding-top: 3rem;
+
+
+    
+}

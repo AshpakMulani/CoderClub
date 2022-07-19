@@ -1,0 +1,66 @@
+.coder_club_hero_text {
+    margin-right: 8rem;
+    margin-top: 5rem;
+   
+   
+}
+
+.coder_club_hero_maintext{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 50px;
+    text-align:left;
+    letter-spacing: -0.015em;
+    color: #D4D4D4;
+    margin-left: 0.5rem;
+}
+
+
+.coder_club_hero_maintext_combine{
+    display: flex;
+}
+
+.coder_club_hero_subtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;   
+    letter-spacing: -0.045em;
+    color: #6A6363;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    margin-left: 0.5rem;     
+}
+
+.coder_club_hero_maintext_coding_span{
+    color: #0080B7;
+    -webkit-animation: action 2.5s infinite  alternate;
+    animation: action 2.5s infinite  alternate;   
+    margin-left: 1rem;
+    margin-right: 1rem; 
+}
+
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+.coder_club_hero_button{
+    margin-top: 15rem;
+}
+
+
+.coder_club_hero_button:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.1);  
+    cursor: pointer;  
+}

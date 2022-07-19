@@ -1,0 +1,15 @@
+.coder_club_side_draw img{
+    height: 15rem;
+    width: auto;
+    margin-top: 13rem;
+    opacity: 40%;
+  
+    position: absolute;
+}
+
+
+.coder_club_side_draw :hover{
+    opacity: 100%;
+
+}
+

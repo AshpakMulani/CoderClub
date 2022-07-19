@@ -1,0 +1,31 @@
+
+
+.coderclub_navbar_links
+{
+    flex: 1;
+    display: flex;   
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 0.7rem 0.5rem;
+    border-radius: 20px;
+    background-color: rgb(22, 21, 21);
+    
+    
+}
+
+.coderclub_navbar_links p{
+    color:#fff;
+    margin: 0 2rem;  
+    font-family: var(--font-family);
+    font-size: medium;
+    font-weight: 300;
+}
+.coderclub_navbar_links p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #d3caca;
+}

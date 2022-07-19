@@ -1,0 +1,35 @@
+.coder_club_topic_details{
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+
+
+}
+
+
+.coder_club_topic_title{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 46px;
+    letter-spacing: 0.065em;
+    color: #C4C4C4;
+    opacity: 0.58;   
+    
+   
+}
+
+.coder_club_topic_subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #d3caca;
+    margin-top: 2rem;
+    max-width: 500px;
+    text-align: justify;  
+    letter-spacing: 0.1em;  
+  
+}

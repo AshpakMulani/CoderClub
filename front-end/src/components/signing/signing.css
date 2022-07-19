@@ -1,0 +1,16 @@
+
+.coder_club_navbar_signing
+{
+    display: flex;   
+    justify-content: flex-end;
+    -ms-flex-item-align: center;
+    
+}
+
+.coder_club_navbar_signing p{
+    color:#fff;
+    margin: 0 1rem;  
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: small;
+}

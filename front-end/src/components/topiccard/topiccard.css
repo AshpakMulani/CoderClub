@@ -1,0 +1,43 @@
+.coder_club_topic_card{
+    width: 15rem;
+    box-shadow: 4px 4px 8px 4px rgba(83, 82, 82, 0.2);
+    padding-bottom: 1rem;
+   
+    
+}
+
+.coder_club_topic_card img { 
+    width: 100%; 
+    height: auto; 
+  }
+
+.coder_club_topic_card h4{
+    text-align: center;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 0.065em;
+    color: #C4C4C4;
+    opacity: 0.58;
+
+}
+
+
+.coder_club_topic_card p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #706f6f;
+    margin: 1rem;
+    
+    align-items: stretch;
+
+}
+
+
+.coder_club_topic_card:hover{
+    transition: all 0.2s linear;
+    transform: scale(1.1);  
+}

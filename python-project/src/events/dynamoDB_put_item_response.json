@@ -1,0 +1,16 @@
+{
+    "ResponseMetadata": {
+    "RequestId": "I89GRGTF76RGQBPGMA82NOGK5NVV4KQNSO5AEMVJF66Q9ASUAAJG",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+    "server": "Server",
+    "date": "Tue, 31 May 2022 17:46:42 GMT",
+    "content-type": "application/x-amz-json-1.0",
+    "content-length": "2",
+    "connection": "keep-alive",
+    "x-amzn-requestid": "I89GRGTF76RGQBPGMA82NOGK5NVV4KQNSO5AEMVJF66Q9ASUAAJG",
+    "x-amz-crc32": "2745614147"
+    },
+    "RetryAttempts": 0
+    }
+}

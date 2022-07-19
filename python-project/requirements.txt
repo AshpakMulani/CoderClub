@@ -1,0 +1,6 @@
+pytest
+moto
+boto3
+pytest-cov
+flake8
+black
